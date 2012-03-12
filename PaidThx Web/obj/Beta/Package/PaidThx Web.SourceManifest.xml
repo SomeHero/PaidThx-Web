@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="c:\users\james\documents\visual studio 2010\Projects\PaidThx Web\PaidThx Web\obj\Beta\Package\PackageTmp" managedRuntimeVersion="v4.0" />
+  <setAcl path="c:\users\james\documents\visual studio 2010\Projects\PaidThx Web\PaidThx Web\obj\Beta\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="c:\users\james\documents\visual studio 2010\Projects\PaidThx Web\PaidThx Web\obj\Beta\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+</sitemanifest>
