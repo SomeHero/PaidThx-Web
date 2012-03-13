@@ -362,6 +362,7 @@ div#title {
 {
     position: relative;
     width: 1000px;
+    height: 510px;
     margin: 0px auto;
 }
 #main-top-callout 
@@ -379,9 +380,27 @@ div#title {
     top: 0px;
     z-index: 10;
 }
+#form-wrapper 
+{
+    position: relative;
+}
+#form-outputs
+{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    font-size: 16px;
+    width: 300px;
+}
+#form-inputs
+{
+    position: absolute;
+    top: 20px;
+    left: 340px;
+}
 #main-bottom 
 {
-    margin-top: -121px;
+    position: relative;
 }
 #main-bottom-content-wrapper
 {
@@ -401,8 +420,8 @@ margin: 0px 40px 0px 20px;
 #main-bottom-callout 
 {
     position: absolute;
-    top: 389px;
-    z-index: 8;
+    bottom: -4px;
+    left: -10px;
 }
 #social-icons-wrapper 
 {
@@ -440,5 +459,9 @@ input#txtEmailAddress
 .nospam
 {
     font-size: 14px;
+    color: #fff;
+}
+#output 
+{
     color: #fff;
 }
