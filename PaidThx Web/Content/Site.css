@@ -1,8 +1,99 @@
-﻿/*----------------------------------------------------------
-The base color for this template is #5c87b2. If you'd like
-to use a different color start by replacing all instances of
-#5c87b2 with your new color.
-----------------------------------------------------------*/
+﻿/* STYLE RESET - RYAN */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
 body {
     background-color: #fff;
     background: url("images/background.gif");
@@ -362,16 +453,16 @@ div#title {
 {
     position: relative;
     width: 1000px;
-    height: 510px;
     margin: 0px auto;
 }
 #main-top-callout 
 {
-    margin-bottom: 14px;
+    margin: 0 0 30px 0;
 }
 #main-top-left 
 {
     width: 680px;
+    margin:0 0 0 22px;
 }
 #main-top-right
 {
@@ -380,27 +471,9 @@ div#title {
     top: 0px;
     z-index: 10;
 }
-#form-wrapper 
-{
-    position: relative;
-}
-#form-outputs
-{
-    position: absolute;
-    top: 20px;
-    left: 15px;
-    font-size: 16px;
-    width: 300px;
-}
-#form-inputs
-{
-    position: absolute;
-    top: 20px;
-    left: 340px;
-}
 #main-bottom 
 {
-    position: relative;
+    margin-top: -121px;
 }
 #main-bottom-content-wrapper
 {
@@ -411,40 +484,43 @@ div#title {
 }
 #main-bottom-content
 {
-margin: 0px 40px 0px 20px;
+margin: 0px 28px 0px 28px;
+padding:0 0 25px 0;
 }
 #main-bottom-content h5
 {
-    margin-top: 0px;
+    margin: 0px;
 }
 #main-bottom-callout 
 {
     position: absolute;
-    bottom: -4px;
-    left: -10px;
+    top: 389px;
+    z-index: 8;
 }
 #social-icons-wrapper 
 {
+    height:54px;
     position: absolute;
     right: 0px;
-    top: 0px;
+    top: 16px;
 }
 #social-icons-wrapper dd
 {
     float: left;
-    height: 90px;
+    height: 54px;
+    margin-left:16px;
 }
 input#txtEmailAddress
 {
     display: block;
-    width: 100%;
+    width: 98%;
     border: solid 2px #6bcae2;
     height: 45px;
     line-height: 35px;
     color: #68CAE2;
     text-align: center;
-    font-style: italic;
     font-size: 20px;
+    margin:0 0 20px 0;
 }
 .item-image 
 {
@@ -455,13 +531,11 @@ input#txtEmailAddress
     display: block;
     padding-left: 100px;
     padding-top: 5px;
+    font-size: 16px;
+    line-height: 20px;
 }
 .nospam
 {
     font-size: 14px;
-    color: #fff;
-}
-#output 
-{
     color: #fff;
 }
