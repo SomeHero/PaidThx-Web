@@ -471,6 +471,24 @@ div#title {
     top: 0px;
     z-index: 10;
 }
+#form-wrapper 
+{
+    position: relative;
+}
+#form-outputs
+{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    font-size: 16px;
+    width: 300px;
+}
+#form-inputs
+{
+    position: absolute;
+    top: 20px;
+    left: 340px;
+}
 #main-bottom 
 {
     margin-top: -121px;

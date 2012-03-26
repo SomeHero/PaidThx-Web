@@ -6,16 +6,25 @@
     <div id="main-top-content">
         <div id="main-top-left">
             <img id="main-top-callout" src="@Url.Content("~/Content/images/main-top-callout.gif")" alt="Main Callout" />
-            <p style="margin-bottom: 5px;">
-                <input type="text" id="txtEmailAddress" name="EmailAddress" placeholder="Enter Your Email Address"
-                    class="request-invitation-input" />
-            </p>
-            <p style="float: right">
-                <input type="image" src="@Url.Content("~/Content/images/request-invitation.gif")" id="btnRequestInvitation" />
-                 <span style="display: block; text-align: center">
-                    <span class="nospam">(no spam, we promise)</span>
-                </span>
-            </p>
+           
+            <form id="beta-signup-form">
+                <p style="margin-bottom: 5px;">
+                    <input type="text" id="txtEmailAddress" name="EmailAddress" placeholder="Enter Your Email Address"
+                        class="request-invitation-input" />
+                </p>
+                <div id="form-wrapper">
+                
+                    <div id="form-outputs">
+                        <p id="output" style="display: none;"></p>
+                    </div>
+                    <div id="form-inputs">
+                        <input type="image" src="@Url.Content("~/Content/images/request-invitation.gif")" id="btnRequestInvitation" />
+                        <span style="display: block; text-align: center">
+                            <span class="nospam">(no spam, we promise)</span>
+                        </span>
+                    </div>
+                </div>     
+            </form>
            
         </div>
         <div id="main-top-right">
