@@ -10,3 +10,15 @@ c:\users\james\documents\visual studio 2010\Projects\PaidThx Web\PaidThx Web\bin
 c:\users\james\documents\visual studio 2010\Projects\PaidThx Web\PaidThx Web\bin\System.Web.Helpers.xml
 c:\users\james\documents\visual studio 2010\Projects\PaidThx Web\PaidThx Web\obj\Dev\ResolveAssemblyReference.cache
 c:\users\james\documents\visual studio 2010\Projects\PaidThx Web\PaidThx Web\obj\Dev\PaidThx Web.dll
+C:\CREATIVE\PaidThx\website\main\code\PaidThx-Web\PaidThx Web\bin\PaidThx Web.dll
+C:\CREATIVE\PaidThx\website\main\code\PaidThx-Web\PaidThx Web\bin\EntityFramework.dll
+C:\CREATIVE\PaidThx\website\main\code\PaidThx-Web\PaidThx Web\bin\System.Web.dll
+C:\CREATIVE\PaidThx\website\main\code\PaidThx-Web\PaidThx Web\bin\System.Web.Helpers.dll
+C:\CREATIVE\PaidThx\website\main\code\PaidThx-Web\PaidThx Web\bin\System.Web.Mvc.dll
+C:\CREATIVE\PaidThx\website\main\code\PaidThx-Web\PaidThx Web\bin\System.Web.WebPages.dll
+C:\CREATIVE\PaidThx\website\main\code\PaidThx-Web\PaidThx Web\bin\EntityFramework.xml
+C:\CREATIVE\PaidThx\website\main\code\PaidThx-Web\PaidThx Web\bin\System.Web.Mvc.xml
+C:\CREATIVE\PaidThx\website\main\code\PaidThx-Web\PaidThx Web\bin\System.Web.WebPages.xml
+C:\CREATIVE\PaidThx\website\main\code\PaidThx-Web\PaidThx Web\bin\System.Web.Helpers.xml
+C:\CREATIVE\PaidThx\website\main\code\PaidThx-Web\PaidThx Web\obj\Dev\ResolveAssemblyReference.cache
+C:\CREATIVE\PaidThx\website\main\code\PaidThx-Web\PaidThx Web\obj\Dev\PaidThx Web.dll

@@ -14,6 +14,7 @@
     <AssemblyName>PaidThx Web</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>false</UseIISExpress>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -104,6 +105,7 @@
     <Content Include="Content\images\our-dream-icon.gif" />
     <Content Include="Content\images\request-invitation-hover.gif" />
     <Content Include="Content\images\request-invitation.gif" />
+    <Content Include="Content\images\social_icons_sp.jpg" />
     <Content Include="Content\images\twitter-icon.gif" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
