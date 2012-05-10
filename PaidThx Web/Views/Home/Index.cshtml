@@ -1,15 +1,23 @@
-﻿@{
+﻿
+@{
     ViewBag.Title = "PaidThx - The Social Payment Network";
 }
-<script src="@Url.Content("~/Scripts/home.js")" type="text/javascript"></script>
+
 <div id="main-top">
     <div id="main-top-content">
         <div id="main-top-left">
-            <img id="main-top-callout" src="@Url.Content("~/Content/images/main-top-callout.gif")" alt="Main Callout" />
-           
+           <!-- <img id="main-top-callout" src="@Url.Content("~/Content/images/main-top-callout.gif")" alt="Main Callout" />-->
+           <div id="intro-head">
+           <h2 class="pie">
+           Get ready to change the way you pay.
+           </h2>
+           <h3 class="pie">
+           Be the first in your circle to try out PaidThx!
+           </h3>
+           </div>
             <form id="beta-signup-form">
                 <p style="margin-bottom: 5px;">
-                    <input type="text" id="txtEmailAddress" name="EmailAddress" placeholder="Enter Your Email Address"
+                    <input type="text" id="txtEmailAddress" name="EmailAddress" placeholder="Enter your email to receive an invitation"
                         class="request-invitation-input" />
                 </p>
                 <div id="form-wrapper">
@@ -38,29 +46,24 @@
         <div id="main-bottom-content">
             <div id="our-dream" style="height: 120px;">
                 <h5>
-                    Our Dream</h5>
+                    Our Passion</h5>
                 <div class="item-wrapper">
-                    <span class="item-image">
-                        <img src="@Url.Content("~/Content/images/our-dream-icon.gif")" alt="Our Dream" />
-                    </span><span class="item-copy">At PaidThx, we want to change the way the world thinks about
-                        money management. We are building a
-                        future where settling up with a friend or donating to a worthy cause is not only fast,
-                        easy, and secure, but also transparent, trackable, and best of all - <b>free</b>.
+                    <span id="passion" class="item-image">
+                    <span class="active"></span>
+                        <!--<img alt="Our Passion" src="@Url.Content("~/Content/images/our-dream-icon.gif")" alt="Our Passion" />-->
+                    </span><span class="item-copy">At PaidThx, we believe you should be able to send and receive money whenever you want, wherever you want. Whether you owe a few bucks to a friend or want to donate to your favorite cause, it should be as simple as the swipe of a finger shouldn’t cost you a penny.
                     </span>
                 </div>
                 <span class="clear">&nbsp;</span>
             </div>
             <div id="how-it-works"  style="height: 120px;">
                 <h5>
-                    How it works</h5>
+                    How it Works</h5>
                 <div class="item-wrapper">
-                    <span class="item-image">
-                        <img src="@Url.Content("~/Content/images/how-it-works-icon.gif")" alt="How it Works" />
-                    </span><span class="item-copy">PaidThx works just like transferring money with your online
-                        banking account, only <b>easier</b>. Our technology enables users to send money
-                        securely at no charge, allowing you to exchange money with anyone in
-                        your network using a text, a Tweet, or a Facebook
-                        message! </span>
+                    <span id="how-it-works" class="item-image">
+                    <span class="active"></span>
+                        <!--<img alt="How It Works" src="@Url.Content("~/Content/images/how-it-works-icon.gif")" alt="How it Works" />-->
+                    </span><span class="item-copy">PaidThx works a lot like the online banking tools you use today with one major difference: PaidThx lets you to send and receive money with any of your contacts, no matter where they bank. Whether its on your smartphone, computer or favorite social media site, PaidThx gives you the power to exchange money in the moment.</span>
                 </div>
                 <span class="clear">&nbsp;</span>
             </div>
@@ -68,13 +71,14 @@
                 <h5>
                     The Social Payment Network</h5>
                 <div class="item-wrapper">
-                    <span class="item-image">
-                        <img src="@Url.Content("~/Content/images/network-icon.gif")" />
-                    </span><span class="item-copy">PaidThx is based around the principle of Social Responsibility.
-                        We have developed a set of proprietary <b>social verification algorithms</b> which analyze factors like: network size, current location, transaction outcomes, and much more. We use this information to empower our users to protect themselves and one another while using PaidThx!</span>
+                    <span id="social-network" class="item-image">
+                    <span class="active"></span>
+                        <!--<img alt="Social Payment Network" src="@Url.Content("~/Content/images/network-icon.gif")" />-->
+                    </span><span class="item-copy">PaidThx utilizes the latest in mobile and online security protocols to ensure your data, personal information and transactions stay safe. Our proprietary verification algorithms constantly analyze each part of the network to ensure your transactions are completed quickly and successfully.</span>
                 </div>
                 <span class="clear">&nbsp;</span>
             </div>
         </div>
     </div>
 </div>
+
