@@ -91,7 +91,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\images\background.gif" />
+    <Content Include="Content\images\content_icons_sp.jpg" />
     <Content Include="Content\images\facebook-icon.gif" />
+    <Content Include="Content\images\favicon.ico" />
     <Content Include="Content\images\footer-background.gif" />
     <Content Include="Content\images\google-plus-icon.gif" />
     <Content Include="Content\images\how-it-works-icon.gif" />
@@ -107,6 +109,8 @@
     <Content Include="Content\images\request-invitation.gif" />
     <Content Include="Content\images\social_icons_sp.jpg" />
     <Content Include="Content\images\twitter-icon.gif" />
+    <Content Include="Content\jquery.qtip.min.css" />
+    <Content Include="Content\Site.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -142,11 +146,14 @@
     <Content Include="Scripts\jquery-ui-1.8.11.js" />
     <Content Include="Scripts\jquery-ui-1.8.11.min.js" />
     <Content Include="Scripts\jquery.json-2.3.min.js" />
+    <Content Include="Scripts\jquery.qtip.min.js" />
     <Content Include="Scripts\jquery.validate-vsdoc.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\modernizr-1.7.js" />
     <Content Include="Scripts\modernizr-1.7.min.js" />
+    <Content Include="Scripts\PIE.htc" />
+    <Content Include="Scripts\PIE.js" />
     <Content Include="Styles\jquery.qtip.min.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">

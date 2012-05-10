@@ -1,7 +1,0 @@
-c:\users\james\documents\visual studio 2010\Projects\PaidThx Web\PaidThx Web\bin\PaidThx Web.dll
-c:\users\james\documents\visual studio 2010\Projects\PaidThx Web\PaidThx Web\bin\PaidThx Web.pdb
-c:\users\james\documents\visual studio 2010\Projects\PaidThx Web\PaidThx Web\bin\EntityFramework.dll
-c:\users\james\documents\visual studio 2010\Projects\PaidThx Web\PaidThx Web\bin\EntityFramework.xml
-c:\users\james\documents\visual studio 2010\Projects\PaidThx Web\PaidThx Web\obj\Debug\ResolveAssemblyReference.cache
-c:\users\james\documents\visual studio 2010\Projects\PaidThx Web\PaidThx Web\obj\Debug\PaidThx Web.dll
-c:\users\james\documents\visual studio 2010\Projects\PaidThx Web\PaidThx Web\obj\Debug\PaidThx Web.pdb

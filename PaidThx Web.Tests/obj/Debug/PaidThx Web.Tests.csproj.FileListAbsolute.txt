@@ -1,8 +1,0 @@
-c:\users\james\documents\visual studio 2010\Projects\PaidThx Web\PaidThx Web.Tests\bin\Debug\PaidThx Web.Tests.dll.config
-c:\users\james\documents\visual studio 2010\Projects\PaidThx Web\PaidThx Web.Tests\bin\Debug\PaidThx Web.Tests.dll
-c:\users\james\documents\visual studio 2010\Projects\PaidThx Web\PaidThx Web.Tests\bin\Debug\PaidThx Web.Tests.pdb
-c:\users\james\documents\visual studio 2010\Projects\PaidThx Web\PaidThx Web.Tests\bin\Debug\PaidThx Web.dll
-c:\users\james\documents\visual studio 2010\Projects\PaidThx Web\PaidThx Web.Tests\bin\Debug\PaidThx Web.pdb
-c:\users\james\documents\visual studio 2010\Projects\PaidThx Web\PaidThx Web.Tests\obj\Debug\ResolveAssemblyReference.cache
-c:\users\james\documents\visual studio 2010\Projects\PaidThx Web\PaidThx Web.Tests\obj\Debug\PaidThx Web.Tests.dll
-c:\users\james\documents\visual studio 2010\Projects\PaidThx Web\PaidThx Web.Tests\obj\Debug\PaidThx Web.Tests.pdb
