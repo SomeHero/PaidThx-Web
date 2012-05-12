@@ -723,7 +723,7 @@ text-shadow: 0px 2px 2px rgba(0,0,0,0.1),
  behavior: url('/Scripts/PIE.htc');   
 }
 
-#ui-tooltip-output-tip, #ui-tooltip-output-thanks, #ui-tooltip-output-existing
+#ui-tooltip-output-tip, #ui-tooltip-output-tip-thanks, #ui-tooltip-output-tip-existing
 {
  display:none;   
  font-size:14px;
@@ -731,7 +731,7 @@ text-shadow: 0px 2px 2px rgba(0,0,0,0.1),
  line-height:20px;
  font-weight:bold;
 }
-#ui-tooltip-output-thanks, #ui-tooltip-output-existing
+#ui-tooltip-output-tip-thanks, #ui-tooltip-output-tip-existing
 {
  color: #196779 !important;
 }
