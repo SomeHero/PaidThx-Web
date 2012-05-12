@@ -14,7 +14,8 @@
 
     <script type="text/javascript">
         var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-30208011-1']);
+        var trackingCode = '@System.Web.Configuration.WebConfigurationManager.AppSettings["GoogleAnalyticsKey"]';
+        _gaq.push(['_setAccount', trackingCode]);
         _gaq.push(['_setDomainName', 'paidthx.com']);
         _gaq.push(['_trackPageview']);
 
