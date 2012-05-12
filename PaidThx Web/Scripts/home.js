@@ -108,7 +108,7 @@ var submitSignup = function () {
                 $('#output').html(data.message);
                 $('#txtEmailAddress').qtip({
                     overwrite: false,
-                    id: 'output-tip',
+                    id: 'output-tip-thanks',
                     content: {
                         text: 'Thank you for your interest! You will receive an invitation when we think you are ready to experience PaidThx.'
                         },
@@ -138,6 +138,35 @@ var submitSignup = function () {
             }
             else {
                 $('#output').html(data.message);
+                 $('#txtEmailAddress').qtip({
+                    overwrite: false,
+                    id: 'output-tip-existing',
+                    content: {
+                        text: 'You must really want to try out PaidThx because this email is already registered for a BETA invite!'
+                        },
+                    style: {
+                        classes: 'ui-tooltip-light ui-tooltip-shadow'
+                    },
+                    show: {
+                        event: false,
+                        ready: true,
+                        effect: function (offset) {
+                            $(this).slideDown(100);
+                        }
+                    },
+                    hide: { 
+                    event:false,
+                    inactive: 20000,
+                    },
+                    position: {
+                        my: 'top right',
+                        at: 'bottom center',
+                        adjust: {
+                            x: -20
+                        }
+
+                    }
+                })
             }
             //$('#output').show();
         },
