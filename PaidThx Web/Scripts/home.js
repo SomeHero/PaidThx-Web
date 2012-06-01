@@ -110,7 +110,7 @@ var submitSignup = function () {
                     overwrite: false,
                     id: 'output-tip-thanks',
                     content: {
-                        text: 'Thank you for your interest! You will receive an invitation when we think you are ready to experience PaidThx.'
+                        text: 'Thanks for registering to be one of the first users of PaidThx, we\'ll be in touch shortly!'
                         },
                     style: {
                         classes: 'ui-tooltip-light ui-tooltip-shadow'
