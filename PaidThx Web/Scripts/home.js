@@ -105,6 +105,7 @@ var submitSignup = function () {
         processData: false,
         success: function (data) {
             if (data.success) {
+            _gaq.push(['_trackEvent', 'BETA', 'Submit', 'New']);
                 $('#output').html(data.message);
                 $('#txtEmailAddress').qtip({
                     overwrite: false,
@@ -137,12 +138,13 @@ var submitSignup = function () {
                 })
             }
             else {
+            _gaq.push(['_trackEvent', 'BETA', 'Submit', 'Repeat']);
                 $('#output').html(data.message);
                  $('#txtEmailAddress').qtip({
                     overwrite: false,
                     id: 'output-tip-existing',
                     content: {
-                        text: 'You must really want to try out PaidThx because this email is already registered for a BETA invite!'
+                        text: 'Hello again and thanks for your interest!  You\'ve successfully registered for our BETA invitation, we\'ll be back in touch shortly.'
                         },
                     style: {
                         classes: 'ui-tooltip-light ui-tooltip-shadow'
