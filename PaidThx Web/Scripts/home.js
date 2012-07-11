@@ -88,7 +88,7 @@ var getBaseURL = function () {
       (location.port && ":" + location.port) + "/";
 };
 var submitSignup = function () {
-    var serviceUrl = getBaseURL() + 'services/BetaSignUpService/BetaSignUps?apiKey=BDA11D91-7ADE-4DA1-855D-24ADFE39D174';
+    var serviceUrl = getBaseURL() + 'api/internal/api/BetaSignUps?apiKey=BDA11D91-7ADE-4DA1-855D-24ADFE39D174';
     var emailAddress = $("#txtEmailAddress").val();
 
     var signUpData = {
@@ -103,10 +103,11 @@ var submitSignup = function () {
         contentType: "application/json",
         dataType: "json",
         processData: false,
-        success: function (data) {
-            if (data.success) {
-            _gaq.push(['_trackEvent', 'BETA', 'Submit', 'New']);
-                $('#output').html(data.message);
+        complete: function(e, xhr, settings) {
+            if(e.status == 201)
+            {
+                _gaq.push(['_trackEvent', 'BETA', 'Submit', 'New']);
+                //$('#output').html(data.message);
                 $('#txtEmailAddress').qtip({
                     overwrite: false,
                     id: 'output-tip-thanks',
@@ -137,9 +138,44 @@ var submitSignup = function () {
                     }
                 })
             }
-            else {
-            _gaq.push(['_trackEvent', 'BETA', 'Submit', 'Repeat']);
-                $('#output').html(data.message);
+            else if(status == 500)
+            {
+                 _gaq.push(['_trackEvent', 'BETA', 'Submit', 'Error']);
+                //$('#output').html(data.message);
+                 $('#txtEmailAddress').qtip({
+                    overwrite: false,
+                    id: 'output-tip-existing',
+                    content: {
+                        text: 'Sorry we were able to process your invitation.  Send us an email.'
+                        },
+                    style: {
+                        classes: 'ui-tooltip-light ui-tooltip-shadow'
+                    },
+                    show: {
+                        event: false,
+                        ready: true,
+                        effect: function (offset) {
+                            $(this).slideDown(100);
+                        }
+                    },
+                    hide: { 
+                    event:false,
+                    inactive: 20000,
+                    },
+                    position: {
+                        my: 'top right',
+                        at: 'bottom center',
+                        adjust: {
+                            x: -20
+                        }
+
+                    }
+                })
+            }
+           else {
+            
+                _gaq.push(['_trackEvent', 'BETA', 'Submit', 'Repeat']);
+                //$('#output').html(data.message);
                  $('#txtEmailAddress').qtip({
                     overwrite: false,
                     id: 'output-tip-existing',
@@ -171,9 +207,6 @@ var submitSignup = function () {
                 })
             }
             //$('#output').show();
-        },
-        error: function (objRequest, next, errorThrown) {
-            alert(objRequest.responseText);
         }
     });
 };
