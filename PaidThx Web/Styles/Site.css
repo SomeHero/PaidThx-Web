@@ -657,7 +657,7 @@ input#txtEmailAddress
     border: solid 2px #6bcae2;
     height: 45px;
     line-height: 35px;
-    color: #68CAE2;
+    color: #15728a;
     text-align: center;
     font-size: 20px;
     margin:0 0 20px 0;
@@ -738,4 +738,93 @@ text-shadow: 0px 2px 2px rgba(0,0,0,0.1),
 .ui-tooltip-content
 {
  padding:10px;   
+}
+
+.welcome #intro-head h2
+{
+font-size:41pt; 
+font-family:Helvetica, Arial, Sans-Serif !important;
+}
+
+.welcome #intro-head {
+padding-top: 50px;
+}
+
+.welcome #updates-su
+{
+ width:500px;
+ float:right;   
+ font-size:28pt; 
+font-family:Helvetica, Arial, Sans-Serif !important;
+padding-top:28px;
+margin-right:20px;
+margin-top:5px;
+}
+
+.welcome #updates-su h3
+{ 
+ font-size:28pt; 
+ font-family:Helvetica, Arial, Sans-Serif !important;
+}
+
+.welcome #btnRequestInvitation
+{
+ border-radius:7px;
+ border: 2px solid #068d0c;
+ background-color:#10b23c;
+ color:#ffffff;
+ width:130px;  
+ float:right;
+ font-size:20px;
+   font-weight:bold;
+  line-height:48px;
+  padding:0px 10px;
+  height:53px;
+  margin:0;
+  cursor:pointer;
+}
+
+.welcome #btnRequestInvitation:hover
+{
+ border: 2px solid #0ca936;
+ background-color:#11d747;
+  cursor:pointer;
+}
+.welcome #txtEmailAddress
+{
+ width:320px;
+ float:left;   
+ font-size:20px;
+  border-radius:7px;
+  font-weight:bold;
+  line-height:50px;
+  padding:0px 10px;
+  height:50px;
+  margin:0;
+}
+
+.welcome #video-area
+{
+ background-image: url('/Content/images/video-sprite.png');
+    background-repeat:no-repeat;   
+    width:429px;
+    height:224px;
+    background-position:center top;
+    float:left;
+    margin-left: 20px;
+    margin-top:25px;
+}
+.welcome #video-area a
+{
+ background-image: url('/Content/images/video-sprite.png');
+    background-repeat:no-repeat;   
+    width:429px;
+    height:224px;
+    background-position:center top;
+    cursor:pointer;
+    display:block;
+}
+.welcome #video-area a:hover
+{
+    background-position:center bottom;
 }

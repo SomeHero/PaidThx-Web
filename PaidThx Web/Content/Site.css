@@ -610,3 +610,9 @@ input#txtEmailAddress
     font-size: 14px;
     color: #fff;
 }
+
+.welcome #intro-head h2
+{
+font-size:38pt !important; 
+font-family:Helvetica, Arial, Sans-Serif !important;
+}

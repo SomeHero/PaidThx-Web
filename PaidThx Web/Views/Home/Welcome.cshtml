@@ -1,0 +1,96 @@
+﻿
+@{
+    ViewBag.Title = "PaidThx - The Social Payment Network";
+}
+
+
+<div id="main-top" class="welcome">
+    <div id="main-top-content">
+        <div id="main-top-full">
+           <div id="intro-head">
+           <h2 class="pie" style="margin-left:10px;">
+           The Social Payment Network is here!
+           </h2>
+           <div id="video-area">
+           <a id="videoLink" href="http://youtu.be/-bFf3yi7cNM" rel="prettyPhoto" title="A Short Video About PaidThx">
+           
+           </a>
+           </div>
+           <div id="updates-su">
+           <h3 class="pie">
+           Sign up for top secret news and updates below.
+           </h3>
+            <form id="beta-signup-form">
+                <p style="margin-bottom: 5px;">
+                    <input type="text" id="txtEmailAddress" name="EmailAddress" placeholder="Enter Email Address"
+                        class="request-invitation-input" />
+                </p>
+                <div id="form-wrapper">
+                
+
+                        <p id="output" style="display: none;"></p>
+                       <button type="submit" id="btnRequestInvitation">Notify Me</button>
+                </div>     
+            </form>
+            </div>
+           </div>
+           
+           
+        </div>
+    </div>
+</div>
+<div id="main-bottom">
+    <div id="main-bottom-content-wrapper">
+        <div id="main-bottom-callout2"><img src="@Url.Content("~/Content/images/bottom-quote-2.gif")" alt="Callout" /></div>
+        <div id="main-bottom-content">
+            <div id="our-dream" style="height: 120px;">
+                <h5>
+                    Our Passion</h5>
+                <div class="item-wrapper">
+                    <span id="passion" class="item-image">
+                    <span class="active"></span>
+                        <!--<img alt="Our Passion" src="@Url.Content("~/Content/images/our-dream-icon.gif")" alt="Our Passion" />-->
+                    </span><span class="item-copy">At PaidThx, we believe you should be able to send and receive money whenever you want, wherever you want. Whether you owe a few bucks to a friend or want to donate to your favorite cause, it should be as simple as the swipe of a finger and shouldn’t cost you a penny.
+                    </span>
+                </div>
+                <span class="clear">&nbsp;</span>
+            </div>
+            <div id="how-it-works"  style="height: 120px;">
+                <h5>
+                    How it Works</h5>
+                <div class="item-wrapper">
+                    <span id="how-it-works" class="item-image">
+                    <span class="active"></span>
+                        <!--<img alt="How It Works" src="@Url.Content("~/Content/images/how-it-works-icon.gif")" alt="How it Works" />-->
+                    </span><span class="item-copy">PaidThx works a lot like the online banking tools you use today with one major difference: PaidThx lets you send and receive money with any of your contacts, no matter where they bank. Whether it's on your smartphone, computer or favorite social media site, PaidThx gives you the power to exchange money in the moment.</span>
+                </div>
+                <span class="clear">&nbsp;</span>
+            </div>
+            <div id="social-network" style="height: 120px;">
+                <h5>
+                    The Social Payment Network</h5>
+                <div class="item-wrapper">
+                    <span id="social-network" class="item-image">
+                    <span class="active"></span>
+                    </span><span class="item-copy">PaidThx utilizes the latest in mobile and online security protocols to ensure your data, personal information and transactions stay safe. Our proprietary verification algorithms constantly analyze each part of the network to ensure your transactions are completed quickly and successfully.</span>
+                </div>
+                <span class="clear">&nbsp;</span>
+            </div>
+        </div>
+    </div>
+</div>
+@section EndScripts{
+<script type="text/javascript">
+    setTimeout(function () {
+        var a = document.createElement("script");
+        var b = document.getElementsByTagName("script")[0];
+        a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0013/1468.js?" + Math.floor(new Date().getTime() / 3600000);
+        a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)
+    }, 1);
+
+//Video Event Tracking
+    $("#videoLink").live("click", function (event) {
+        _gaq.push(['_trackEvent', 'Click', 'VideoLink']);
+    });
+</script>
+}
