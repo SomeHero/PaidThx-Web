@@ -70,7 +70,7 @@ namespace PaidThx_Web.Controllers
             }
             else if (statusCode.Equals(HttpStatusCode.BadRequest))
             {
-                return View("BetaSignUpThanks");
+                return View("Index");
             } 
             else
             {
@@ -80,6 +80,10 @@ namespace PaidThx_Web.Controllers
         }
 
         public ActionResult About()
+        {
+            return View();
+        }
+        public ActionResult Welcome()
         {
             return View();
         }

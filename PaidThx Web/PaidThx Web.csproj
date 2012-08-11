@@ -113,10 +113,20 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\images\background.gif" />
+    <Content Include="Content\images\bottom-quote-2.gif" />
     <Content Include="Content\images\content_icons_sp.jpg" />
     <Content Include="Content\images\facebook-icon.gif" />
     <Content Include="Content\images\favicon.ico" />
     <Content Include="Content\images\footer-background.gif" />
+    <Content Include="images\fullscreen\1.jpg" />
+    <Content Include="images\fullscreen\2.jpg" />
+    <Content Include="images\fullscreen\3.jpg" />
+    <Content Include="images\fullscreen\4.jpg" />
+    <Content Include="images\fullscreen\5.jpg" />
+    <Content Include="images\fullscreen\6.jpg" />
+    <Content Include="images\fullscreen\high.gif" />
+    <Content Include="images\fullscreen\huge.gif" />
+    <Content Include="images\fullscreen\wide.gif" />
     <Content Include="Content\images\google-plus-icon.gif" />
     <Content Include="Content\images\how-it-works-icon.gif" />
     <Content Include="Content\images\iphone-image.gif" />
@@ -127,10 +137,56 @@
     <Content Include="Content\images\main-top-callout.gif" />
     <Content Include="Content\images\network-icon.gif" />
     <Content Include="Content\images\our-dream-icon.gif" />
+    <Content Include="images\prettyPhoto\dark_rounded\btnNext.png" />
+    <Content Include="images\prettyPhoto\dark_rounded\btnPrevious.png" />
+    <Content Include="images\prettyPhoto\dark_rounded\contentPattern.png" />
+    <Content Include="images\prettyPhoto\dark_rounded\default_thumbnail.gif" />
+    <Content Include="images\prettyPhoto\dark_rounded\loader.gif" />
+    <Content Include="images\prettyPhoto\dark_rounded\sprite.png" />
+    <Content Include="images\prettyPhoto\dark_square\btnNext.png" />
+    <Content Include="images\prettyPhoto\dark_square\btnPrevious.png" />
+    <Content Include="images\prettyPhoto\dark_square\contentPattern.png" />
+    <Content Include="images\prettyPhoto\dark_square\default_thumbnail.gif" />
+    <Content Include="images\prettyPhoto\dark_square\loader.gif" />
+    <Content Include="images\prettyPhoto\dark_square\sprite.png" />
+    <Content Include="images\prettyPhoto\default\default_thumb.png" />
+    <Content Include="images\prettyPhoto\default\loader.gif" />
+    <Content Include="images\prettyPhoto\default\sprite.png" />
+    <Content Include="images\prettyPhoto\default\sprite_next.png" />
+    <Content Include="images\prettyPhoto\default\sprite_prev.png" />
+    <Content Include="images\prettyPhoto\default\sprite_x.png" />
+    <Content Include="images\prettyPhoto\default\sprite_y.png" />
+    <Content Include="images\prettyPhoto\facebook\btnNext.png" />
+    <Content Include="images\prettyPhoto\facebook\btnPrevious.png" />
+    <Content Include="images\prettyPhoto\facebook\contentPatternBottom.png" />
+    <Content Include="images\prettyPhoto\facebook\contentPatternLeft.png" />
+    <Content Include="images\prettyPhoto\facebook\contentPatternRight.png" />
+    <Content Include="images\prettyPhoto\facebook\contentPatternTop.png" />
+    <Content Include="images\prettyPhoto\facebook\default_thumbnail.gif" />
+    <Content Include="images\prettyPhoto\facebook\loader.gif" />
+    <Content Include="images\prettyPhoto\facebook\sprite.png" />
+    <Content Include="images\prettyPhoto\light_rounded\btnNext.png" />
+    <Content Include="images\prettyPhoto\light_rounded\btnPrevious.png" />
+    <Content Include="images\prettyPhoto\light_rounded\default_thumbnail.gif" />
+    <Content Include="images\prettyPhoto\light_rounded\loader.gif" />
+    <Content Include="images\prettyPhoto\light_rounded\sprite.png" />
+    <Content Include="images\prettyPhoto\light_square\btnNext.png" />
+    <Content Include="images\prettyPhoto\light_square\btnPrevious.png" />
+    <Content Include="images\prettyPhoto\light_square\default_thumbnail.gif" />
+    <Content Include="images\prettyPhoto\light_square\loader.gif" />
+    <Content Include="images\prettyPhoto\light_square\sprite.png" />
     <Content Include="Content\images\request-invitation-hover.gif" />
     <Content Include="Content\images\request-invitation.gif" />
     <Content Include="Content\images\social_icons_sp.jpg" />
+    <Content Include="images\thumbnails\flash-logo.png" />
+    <Content Include="images\thumbnails\quicktime-logo.gif" />
+    <Content Include="images\thumbnails\t_1.jpg" />
+    <Content Include="images\thumbnails\t_2.jpg" />
+    <Content Include="images\thumbnails\t_3.jpg" />
+    <Content Include="images\thumbnails\t_4.jpg" />
+    <Content Include="images\thumbnails\t_5.jpg" />
     <Content Include="Content\images\twitter-icon.gif" />
+    <Content Include="Content\images\video-sprite.png" />
     <Content Include="Content\jquery.qtip.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
@@ -161,6 +217,8 @@
     <Content Include="Content\themes\base\jquery.ui.tabs.css" />
     <Content Include="Content\themes\base\jquery.ui.theme.css" />
     <Content Include="Global.asax" />
+    <Content Include="robots.txt" />
+    <Content Include="Scripts\Experiment.js" />
     <Content Include="Scripts\home.js" />
     <Content Include="Scripts\jquery-1.5.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.5.1.js" />
@@ -168,6 +226,7 @@
     <Content Include="Scripts\jquery-ui-1.8.11.js" />
     <Content Include="Scripts\jquery-ui-1.8.11.min.js" />
     <Content Include="Scripts\jquery.json-2.3.min.js" />
+    <Content Include="Scripts\jquery.prettyPhoto.js" />
     <Content Include="Scripts\jquery.qtip.min.js" />
     <Content Include="Scripts\jquery.validate-vsdoc.js" />
     <Content Include="Scripts\jquery.validate.js" />
@@ -177,6 +236,7 @@
     <Content Include="Scripts\PIE.htc" />
     <Content Include="Scripts\PIE.js" />
     <Content Include="Styles\jquery.qtip.min.css" />
+    <Content Include="Styles\prettyPhoto.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -225,6 +285,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Shared\BetaSignUpThanks.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\Welcome.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\fullscreen\.DS_Store" />
+    <Content Include="Views\Shared\_Layout-Static.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
